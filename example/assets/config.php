@@ -1,7 +1,6 @@
 <?php
 /**
- * Formação Full Stack PHP Developer UpInside
- * @author Robson V. Leite <https://www.upinside.com.br>
+ * @author Yuri Gonçalves Lima
  *
  * Document content and charset
  */

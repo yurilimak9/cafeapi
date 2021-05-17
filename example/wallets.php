@@ -2,11 +2,11 @@
 require __DIR__ . "/assets/config.php";
 require __DIR__ . "/../vendor/autoload.php";
 
-use RobsonVLeite\CafeApi\Wallets;
+use YuriLimaK9\CafeApi\Wallets;
 
 $wallets = new Wallets(
-    "localhost/fsphp/cafeapi/",
-    "seuemail@gmail.com",
+    "localhost/cafecontrol/cafeapi/",
+    "yurigoncalveslima33@yahoo.com",
     "12345678"
 );
 

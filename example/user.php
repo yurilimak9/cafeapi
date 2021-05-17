@@ -2,11 +2,11 @@
 require __DIR__ . "/assets/config.php";
 require __DIR__ . "/../vendor/autoload.php";
 
-use RobsonVLeite\CafeApi\Me;
+use YuriLimaK9\CafeApi\Me;
 
 $me = new Me(
-    "localhost/fsphp/cafeapi/",
-    "seuemail@gmail.com",
+    "localhost/cafecontrol/cafeapi/",
+    "yurigoncalveslima33@yahoo.com",
     "12345678"
 );
 
@@ -35,7 +35,7 @@ if ($update && !empty($update["user"])) {
     }
 }
 
-$userData = $user->me()->response()->user;
+$userData = $user->response()->user;
 ?>
     <form action="" method="post">
         <input type="hidden" name="user" value="true"/>
